@@ -1,0 +1,37 @@
+Lab829
+Canonical: https://lab829.com/
+Blog: https://lab829.com/blog
+GitHub: https://github.com/lab829
+LinkedIn: https://www.linkedin.com/company/lab829
+Contact: mailto:julian@lab829.com
+
+Lab829 is a global digital transformation consultancy focused on tailored development, tech innovation, AI integration, and activation strategies for enterprise, government, and startups.
+
+Founder and contact:
+- Julian Pineda
+- Email: julian@lab829.com
+
+Services:
+- Digital transformation
+- Product innovation
+- UX strategy
+- Web accessibility
+- Enterprise architecture
+- Technical project management
+- Team building and mentorship
+- Agile development
+- Technology leadership
+- AI code fix and refactoring
+- Accessibility implementation
+- AI and machine learning integrations
+
+Public proof points:
+- Maintains a public company site at https://lab829.com/
+- Publishes articles at https://lab829.com/blog
+- Publishes code and project work on GitHub at https://github.com/lab829
+- Maintains a public company profile on LinkedIn at https://www.linkedin.com/company/lab829
+
+Contact paths:
+- Website: https://lab829.com/
+- Blog: https://lab829.com/blog
+- Email: mailto:julian@lab829.com

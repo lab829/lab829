@@ -1,0 +1,60 @@
+# Cache Control Headers for Production
+# Optimized for Lighthouse Performance Score
+
+# HTML files - short cache (1 hour) since they can change
+/*.html
+  Cache-Control: public, max-age=3600, must-revalidate
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+
+# Hashed assets - long cache (1 year) since they never change
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Content-Type-Options: nosniff
+
+# Images - long cache (1 year) with optimized compression
+/assets/images/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Content-Type-Options: nosniff
+
+# Fonts - long cache (1 year) with proper CORS
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+  X-Content-Type-Options: nosniff
+
+# JavaScript and CSS with hashes - long cache (1 year)
+/assets/*.js
+  Cache-Control: public, max-age=31536000, immutable
+  X-Content-Type-Options: nosniff
+
+/assets/*.css
+  Cache-Control: public, max-age=31536000, immutable
+  X-Content-Type-Options: nosniff
+
+# Public images - medium cache (7 days) for better performance
+/images/*
+  Cache-Control: public, max-age=604800
+  X-Content-Type-Options: nosniff
+
+# WebP images - long cache for better performance
+/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+  X-Content-Type-Options: nosniff
+
+# Manifest and service worker - short cache (1 hour)
+/site.webmanifest
+  Cache-Control: public, max-age=3600
+  X-Content-Type-Options: nosniff
+
+# Favicons - long cache (1 month) for better performance
+/*.ico
+/*.png
+  Cache-Control: public, max-age=2592000
+  X-Content-Type-Options: nosniff
+
+# Security headers for all files
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin

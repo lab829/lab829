@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found | Lab829</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" href="/favicon.ico">
+
+  <!-- Load Inter and JetBrains Mono fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@700&display=swap"
+    rel="stylesheet">
+
+  <script>
+    // Single Page Apps for GitHub Pages
+    // MIT License
+    // https://github.com/rafgraph/spa-github-pages
+    // This script takes the current url and converts the path and query
+    // string into just a query string, and then redirects the browser
+    // to the new url with only a query string and hash fragment,
+    // e.g. https://www.foo.tld/one/two?a=b&c=d#qwe, becomes
+    // https://www.foo.tld/?/one/two&a=b~and~c=d#qwe
+    // Note: this 404.html file must be at least 512 bytes for it to work
+    // with Internet Explorer (it is currently > 512 bytes)
+
+    // If you're creating an SPA, you'll need to add a script to your index.html
+    // file to convert the query string back into a path.
+  </script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background-color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    .logo-container {
+      margin-bottom: 2rem;
+    }
+
+    .logo-link {
+      display: block;
+    }
+
+    .logo {
+      width: 6rem;
+      height: 6rem;
+      object-fit: contain;
+      transition: opacity 0.2s;
+    }
+
+    .logo:hover {
+      opacity: 0.8;
+    }
+
+    @media (min-width: 768px) {
+      .logo {
+        width: 8rem;
+        height: 8rem;
+      }
+    }
+
+    .error-number {
+      margin-bottom: 2rem;
+    }
+
+    .error-text {
+      font-size: 40vw;
+      font-weight: 700;
+      color: #1f2937;
+      font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
+      line-height: 1;
+      text-align: center;
+    }
+
+    @media (min-width: 768px) {
+      .error-text {
+        font-size: 30vw;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .error-text {
+        font-size: 24vw;
+      }
+    }
+
+    .message-container {
+      margin-bottom: 2rem;
+      text-align: center;
+      max-width: 28rem;
+    }
+
+    .message {
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: #374151;
+      margin-bottom: 0.5rem;
+    }
+
+    @media (min-width: 768px) {
+      .message {
+        font-size: 1.5rem;
+      }
+    }
+
+    /* ActionLink styling - exact match to component */
+    .action-link {
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 1.5rem;
+      line-height: 1;
+      color: #000;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5em;
+      padding: 0 0.5rem;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .action-link::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background-color: currentColor;
+      transition: all 0.3s ease;
+    }
+
+    .action-link:hover::before {
+      width: 100%;
+    }
+
+    .action-link:focus {
+      outline: 2px solid #000;
+      outline-offset: 2px;
+      border-radius: 2px;
+    }
+
+    .action-link svg {
+      width: 1em;
+      height: 1em;
+      min-width: 1em;
+      min-height: 1em;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Lab829 Logo -->
+  <div class="logo-container">
+    <a href="/" class="logo-link">
+      <img src="/images/lab829-transparent.png" alt="Lab829" class="logo">
+    </a>
+  </div>
+
+  <!-- 404 Number -->
+  <div class="error-number">
+    <div class="error-text">404</div>
+  </div>
+
+  <!-- Error Message -->
+  <div class="message-container">
+    <p class="message">
+      Oops! That's not what you want. Let's take you back to the home page.
+    </p>
+  </div>
+
+  <!-- Link to Home with Arrow Icon (matching ActionLink component) -->
+  <a href="/" class="action-link">
+    Lab829 Home
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+    </svg>
+  </a>
+
+  <noscript>
+    <p style="margin-top: 2rem; text-align: center; color: #6b7280; font-family: 'Inter', sans-serif;">
+      JavaScript is required to navigate this site. Please enable JavaScript in your browser.
+    </p>
+  </noscript>
+</body>
+
+</html>
